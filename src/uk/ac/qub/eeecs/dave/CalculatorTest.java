@@ -17,4 +17,15 @@ class CalculatorTest {
 		Calculator c = new Calculator();
 		assertEquals(c.sub(10,1), 9);
 	}
+	@Test
+	void testMul() {
+		Calculator c = new Calculator();
+		assertEquals(c.mul(10,3), 30);
+	}
+	@Test
+	void testDiv() {
+		Calculator c = new Calculator();
+		assertEquals(c.div(10,5), 2);
+	}
+
 }
